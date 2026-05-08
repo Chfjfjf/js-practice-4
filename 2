@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>checkSpam</title>
+</head>
+<body>
+<script>
+function checkSpam(str) {
+    let lower = str.toLowerCase();
+    return lower.includes("росі") || lower.includes("xxx");
+}
+console.log(checkSpam('поїхати до росії')); 
+console.log(checkSpam('free xxxxx'));
+console.log(checkSpam('innocent rabbit')); 
+</script>
+</body>
+</html>
